@@ -1,0 +1,28 @@
+# DS_Store files
+.DS_Store
+
+# VS Code directory
+.vscode
+
+# dotenv environment variables file
+.env
+.env.test
+
+#Dropbox Ignore file
+.dropboxignore
+
+#VS Code Counter directory
+.VSCodeCounter
+
+# Bundler
+build.js
+build.js.map
+
+# Token
+token.js
+
+# Dist
+dist
+
+# Node modules
+node_modules
