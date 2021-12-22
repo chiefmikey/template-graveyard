@@ -11,12 +11,22 @@
     <tr>
       <td valign="top">
         <a
-          href="https://github.com/chiefmikey/docker-images/tree/main/alpine-inject"
+          href="https://github.com/chiefmikey/templates/tree/main/koa-mongo"
           target="_blank"
-          >Koa-Mongo</a
+          >koa-mongo</a
         >
       </td>
       <td valign="top">Run a Koa server routed to MongoDB</td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <a
+          href="https://github.com/chiefmikey/templates/tree/main/dom-chef"
+          target="_blank"
+          >dom-chef</a
+        >
+      </td>
+      <td valign="top">Prepare a dom-chef JSX meal</td>
     </tr>
     </tbody>
 </table>
