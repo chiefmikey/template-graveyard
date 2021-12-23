@@ -3,7 +3,7 @@
 <table>
   <thead>
     <tr>
-      <th align="left">Template</th>
+      <th align="left">Name</th>
       <th align="left">Description</th>
     </tr>
   </thead>
