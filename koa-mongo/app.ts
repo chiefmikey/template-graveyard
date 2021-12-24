@@ -4,8 +4,8 @@ import bodyParser from 'koa-bodyparser';
 import serve from 'koa-static';
 import path from 'node:path';
 
-import index from './routes/index.js';
-import './db/index.js';
+import index from './routes/index';
+import './db/index';
 
 const port = process.env.PORT || 8080;
 
