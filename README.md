@@ -1,4 +1,4 @@
-# Templates
+# Template Skeletons
 
 <table>
   <thead>
