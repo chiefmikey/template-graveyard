@@ -1,0 +1,144 @@
+services:
+  proxy:
+    container_name: proxy
+    image: nginxproxy/nginx-proxy:alpine
+    networks:
+      - mikl-net
+    ports:
+      - 80:80
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+  the-myspace:
+    container_name: the-myspace
+    image: chiefmikey/the-myspace:latest
+    depends_on:
+      - "proxy"
+    networks:
+      - mikl-net
+    expose:
+      - "3000"
+    healthcheck:
+      test: node healthcheck.js
+      interval: 10s
+      timeout: 10s
+      retries: 10
+    environment:
+      - VIRTUAL_HOST=themyspace.org,www.themyspace.org
+
+  gitlang:
+    container_name: gitlang
+    image: chiefmikey/gitlang:latest
+    depends_on:
+      name-generator_client:
+        condition: service_healthy
+    networks:
+      - mikl-net
+    expose:
+      - "3004"
+    healthcheck:
+      test: node healthcheck.js
+      interval: 10s
+      timeout: 10s
+      retries: 10
+    environment:
+      - VIRTUAL_HOST=gitlang.net,www.gitlang.net
+
+  tommyman:
+    container_name: tommyman
+    image: chiefmikey/tommyman:latest
+    depends_on:
+      the-myspace:
+        condition: service_healthy
+    networks:
+      - mikl-net
+    expose:
+      - "3003"
+    healthcheck:
+      test: node healthcheck.js
+      interval: 10s
+      timeout: 10s
+      retries: 10
+    environment:
+      - VIRTUAL_HOST=tommyman.itsacloudynight.com
+
+  cloudyman:
+    container_name: cloudyman
+    image: chiefmikey/cloudyman:latest
+    depends_on:
+      the-myspace:
+        condition: service_healthy
+    networks:
+      - mikl-net
+    expose:
+      - "3002"
+    healthcheck:
+      test: node healthcheck.js
+      interval: 10s
+      timeout: 10s
+      retries: 10
+    environment:
+      - VIRTUAL_HOST=itsacloudynight.com,www.itsacloudynight.com,cloudyman.itsacloudynight.com
+
+  name-generator_client:
+    container_name: name-generator_client
+    image: chiefmikey/name-generator:latest
+    depends_on:
+      name-generator_db:
+        condition: service_healthy
+    networks:
+      - mikl-net
+    expose:
+      - "3001"
+    healthcheck:
+      test: node healthcheck.js
+      interval: 10s
+      timeout: 10s
+      retries: 10
+    environment:
+      - VIRTUAL_HOST=name.themyspace.org,www.name.themyspace.org
+
+  name-generator_db:
+    container_name: name-generator_db
+    image: mongo
+    depends_on:
+      the-myspace:
+        condition: service_healthy
+    networks:
+      - mikl-net
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      - MONGO_INITDB_DATABASE=namegenerator
+    ports:
+      - 27017:27017
+    healthcheck:
+      test:
+        echo 'db.runCommand("ping").ok' | mongo localhost:27017/namegenerator --quiet
+      interval: 10s
+      timeout: 10s
+      retries: 10
+
+  # name-generator_db:
+  #   container_name: name-generator_db
+  #   image: chiefmikey/alpine-cassandra:latest
+  #   depends_on:
+  #     the-myspace:
+  #       condition: service_healthy
+  #   networks:
+  #     - mikl-net
+  #   volumes:
+  #     - cassandra-data:/var/lib/cassandra
+  #   healthcheck:
+  #     test:
+  #       su -s /opt/cassandra/bin/bash -c 'bin/cqlsh --debug' cassandra
+  #     interval: 10s
+  #     timeout: 10s
+  #     retries: 10
+
+volumes:
+  mongo-data:
+  # cassandra-data:
+
+networks:
+  mikl-net:

@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+ - source: .
+   destination: /home/ec2-user/mikl.io
+hooks:
+  ApplicationStop:
+   - location: stop.sh
+     timeout: 300
+     runas: ec2-user
+  ApplicationStart:
+   - location: init.sh
+     timeout: 300
+     runas: ec2-user
