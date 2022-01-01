@@ -1,4 +1,8 @@
-# Template Skeletons
+<div align="center">
+
+# Closet Full of Skeletons
+
+<img src="skeletons.png" width="333px" />
 
 <table>
   <thead>
@@ -28,5 +32,17 @@
       </td>
       <td valign="top">Prepare a dom-chef JSX meal</td>
     </tr>
-    </tbody>
+    <tr>
+  <td valign="top">
+    <a
+      href="https://github.com/chiefmikey/templates/tree/main/docker-deploy"
+      target="_blank"
+      >dom-chef</a
+    >
+  </td>
+  <td valign="top">Automate Docker container deployment with AWS</td>
+</tr>
+</tbody>
+
 </table>
+</div>
