@@ -1,6 +1,6 @@
 <div align="center">
 
-# Closet Full of Skeletons
+# Template Cemetary
 
 <img src="skeletons.png" width="333px" />
 
