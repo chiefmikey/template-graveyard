@@ -4,7 +4,7 @@
 
 A collection of skeletons for various types of projects
 
-<img src="skeletons.png" width="333px" />
+<img src="skeletons.jpg" width="333px" />
 
 <table>
   <thead>
