@@ -2,6 +2,8 @@
 
 # Template Cemetery
 
+A collection of skeletons for various types of projects
+
 <img src="skeletons.png" width="333px" />
 
 <table>
@@ -37,7 +39,7 @@
     <a
       href="https://github.com/chiefmikey/templates/tree/main/docker-deploy"
       target="_blank"
-      >dom-chef</a
+      >docker-deploy</a
     >
   </td>
   <td valign="top">Automate Docker container deployment with AWS</td>
