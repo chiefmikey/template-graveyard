@@ -1,6 +1,6 @@
 <div align="center">
 
-# Template Cemetary
+# Template Cemetery
 
 <img src="skeletons.png" width="333px" />
 
