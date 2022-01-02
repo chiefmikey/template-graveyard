@@ -2,7 +2,7 @@
 
 # Template Cemetery
 
-Project skeletons for multiple technologies
+Project skeletons for getting started with different technologies
 
 <img src="skeletons.jpg" width="333px" />
 
