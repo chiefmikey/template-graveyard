@@ -2,7 +2,7 @@
 
 # Template Cemetery
 
-A collection of skeletons for various types of projects
+Project skeletons for multiple technologies
 
 <img src="skeletons.jpg" width="333px" />
 
