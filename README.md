@@ -22,7 +22,7 @@ A collection of skeletons for various types of projects
           >koa-mongo</a
         >
       </td>
-      <td valign="top">Run a Koa server routed to MongoDB</td>
+      <td valign="top">Koa server routed to MongoDB</td>
     </tr>
     <tr>
       <td valign="top">
@@ -32,7 +32,7 @@ A collection of skeletons for various types of projects
           >dom-chef</a
         >
       </td>
-      <td valign="top">Prepare a dom-chef JSX meal</td>
+      <td valign="top">Prepared dom-chef JSX meal</td>
     </tr>
     <tr>
   <td valign="top">
@@ -42,7 +42,7 @@ A collection of skeletons for various types of projects
       >docker-deploy</a
     >
   </td>
-  <td valign="top">Automate Docker container deployment with AWS</td>
+  <td valign="top">Automated Docker deployment with AWS</td>
 </tr>
 </tbody>
 
