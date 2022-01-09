@@ -2,8 +2,6 @@
 
 # Template Cemetery
 
-A collection of skeletons for various types of projects
-
 <img src="skeletons.jpg" width="333px" />
 
 <table>
