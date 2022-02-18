@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "description": "Templates",
   "devDependencies": {
-    "@mikey-pro/style-guide": "^3.2.3",
-    "eslint": "^8.6.0",
+    "@mikey-pro/style-guide": "^4.7.0",
+    "eslint": "^8.9.0",
     "prettier": "^2.5.1",
-    "stylelint": "^14.2.0",
-    "typescript": "^4.5.4"
+    "stylelint": "^14.5.1",
+    "typescript": "^4.5.5"
   },
   "license": "MIT",
   "repository": {
