@@ -1,32 +1,27 @@
 {
   "name": "koa-mongo",
-  "version": "1.0.0",
-  "description": "Koa-Mongo",
+  "version": "2.0.0",
+  "description": "An API template served with Koa on a specified port routing data to MongoDB using Mongoose",
   "scripts": {
-    "build": "NODE_ENV=development NODE_OPTIONS=--loader=ts-node/esm webpack --mode development",
-    "dev": "NODE_ENV=development NODE_OPTIONS=--loader=ts-node/esm webpack --mode development -w",
-    "prod": "NODE_ENV=production NODE_OPTIONS=--loader=ts-node/esm webpack --mode production",
-    "start": "node --loader ts-node/esm app.ts",
-    "test": "nodemon docs/client/app.ts",
-    "tsc": "tsc"
+    "build": "NODE_ENV=development webpack --mode development",
+    "dev": "NODE_ENV=development webpack --mode development -w",
+    "prod": "NODE_ENV=production webpack --mode production",
+    "start": "ts-node app.ts",
+    "test": "nodemon app.ts"
   },
   "dependencies": {
     "@koa/cors": "^3.1.0",
     "@koa/router": "^10.1.1",
-    "airbnb-browser-shims": "^3.3.0",
     "dotenv": "^16.0.0",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
     "koa-static": "^5.0.0",
-    "mongoose": "^6.2.2",
-    "path": "^0.12.7",
-    "the-new-css-reset": "^1.4.9"
+    "mongoose": "^6.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "^7.16.7",
-    "@mikey-pro/style-guide": "^4.7.0",
     "@types/koa": "^2.13.4",
     "@types/koa-bodyparser": "^4.3.5",
     "@types/koa-static": "^4.0.2",
@@ -38,12 +33,8 @@
     "@types/webpack": "^5.28.0",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.6.0",
-    "eslint": "^8.9.0",
     "nodemon": "^2.0.15",
-    "prettier": "^2.5.1",
     "style-loader": "^3.3.1",
-    "stylelint": "^14.5.1",
-    "ts-loader": "^9.2.6",
     "ts-node": "^10.5.0",
     "typescript": "^4.5.5",
     "url-loader": "^4.1.1",
@@ -53,12 +44,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chiefmikey/templates.git#main"
+    "url": "git+https://github.com/chiefmikey/template-cemetery.git#main"
   },
-  "homepage": "https://github.com/chiefmikey/templates/tree/main#readme",
+  "homepage": "https://github.com/chiefmikey/template-cemetery/tree/main#readme",
   "author": "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)",
   "bugs": {
-    "url": "https://github.com/chiefmikey/templates/issues"
+    "url": "https://github.com/chiefmikey/template-cemetery/issues"
   },
   "keywords": [
     "koa-mongo",
@@ -66,12 +57,5 @@
   ],
   "contributors": [
     "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)"
-  ],
-  "prettier": "@mikey-pro/prettier-config",
-  "eslintConfig": {
-    "extends": "@mikey-pro/eslint-config"
-  },
-  "stylelint": {
-    "extends": "@mikey-pro/stylelint-config"
-  }
+  ]
 }

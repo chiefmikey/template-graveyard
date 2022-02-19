@@ -1,7 +1,7 @@
 {
-  "name": "dom-chef",
+  "name": "github-pages-mock",
   "version": "1.0.0",
-  "description": "A template for getting started with dom chef",
+  "description": "A mocked implementation of Github Pages 404 redirect",
   "scripts": {
     "build": "NODE_ENV=development webpack --mode development",
     "dev": "NODE_ENV=development webpack --mode development -w",
@@ -10,30 +10,15 @@
     "test": "nodemon app.ts"
   },
   "dependencies": {
-    "airbnb-browser-shims": "^3.3.0",
-    "dom-chef": "^5.0.0",
     "koa": "^2.13.4",
-    "koa-static": "^5.0.0",
-    "the-new-css-reset": "^1.4.3"
+    "koa-static": "^5.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.5",
-    "@babel/plugin-transform-react-jsx": "^7.16.5",
-    "@babel/preset-env": "^7.16.5",
-    "@babel/preset-typescript": "^7.16.5",
     "@types/koa": "^2.13.4",
     "@types/koa-static": "^4.0.2",
-    "@types/node": "^17.0.1",
-    "@types/webpack": "^5.28.0",
-    "babel-loader": "^8.2.3",
-    "css-loader": "^6.5.1",
     "nodemon": "^2.0.15",
-    "style-loader": "^3.3.1",
-    "ts-node": "^10.4.0",
-    "typescript": "^4.5.4",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1"
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
   },
   "license": "MIT",
   "repository": {
@@ -46,8 +31,9 @@
     "url": "https://github.com/chiefmikey/template-cemetery/issues"
   },
   "keywords": [
-    "dom chef",
-    "template"
+    "github pages",
+    "mock",
+    "koa"
   ],
   "contributors": [
     "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)"

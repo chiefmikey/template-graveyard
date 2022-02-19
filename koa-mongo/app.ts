@@ -2,7 +2,6 @@ import cors from '@koa/cors';
 import Koa from 'koa';
 import bodyParser from 'koa-bodyparser';
 import serve from 'koa-static';
-import path from 'node:path';
 
 import index from './routes/index';
 import './db/index';
@@ -20,10 +19,9 @@ app
     }),
   )
   .use(bodyParser())
-  .use(serve(path.join(path.resolve(), 'client/public')))
+  .use(serve('client/public'))
   .use(index.routes())
-  .use(index.allowedMethods());
-
-app.listen(port, () => console.log('Koa is listening on port', port));
+  .use(index.allowedMethods())
+  .listen(port, () => console.log('Koa is listening on port', port));
 
 export default app;
