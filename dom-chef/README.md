@@ -1,3 +1,3 @@
-# **dom-chef**
+# **Dom Chef**
 
 Get cooking

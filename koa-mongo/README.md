@@ -1,4 +1,4 @@
-# **koa-mongo**
+# **Koa Mongo**
 
 An API template served with Koa on a specified port routing data to MongoDB
 using Mongoose
