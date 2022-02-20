@@ -15,7 +15,7 @@
     <tr>
       <td valign="top">
         <a
-          href="https://github.com/chiefmikey/templates/tree/main/koa-mongo"
+          href="https://github.com/chiefmikey/template-cemetery/tree/main/koa-mongo"
           target="_blank"
           >koa-mongo</a
         >
@@ -25,7 +25,7 @@
     <tr>
       <td valign="top">
         <a
-          href="https://github.com/chiefmikey/templates/tree/main/dom-chef"
+          href="https://github.com/chiefmikey/template-cemetery/tree/main/dom-chef"
           target="_blank"
           >dom-chef</a
         >
@@ -35,14 +35,24 @@
     <tr>
   <td valign="top">
     <a
-      href="https://github.com/chiefmikey/templates/tree/main/docker-deploy"
+      href="https://github.com/chiefmikey/template-cemetery/tree/main/docker-deploy"
       target="_blank"
       >docker-deploy</a
     >
   </td>
   <td valign="top">Automated Docker deployment with AWS</td>
 </tr>
-</tbody>
+      <tr>
+  <td valign="top">
+    <a
+      href="https://github.com/chiefmikey/template-cemetary/tree/main/github-pages-redirect"
+      target="_blank"
+      >github-pages-redirect</a
+    >
+  </td>
+  <td valign="top">Mocked implementation of Github Pages 404 redirect</td>
+     </tr>
+  </tbody>
 
 </table>
 </div>
