@@ -1,9 +1,9 @@
 {
-  "name": "templates",
-  "version": "0.0.1",
-  "description": "Templates",
+  "name": "template-graveyard",
+  "version": "1.0.0",
+  "description": "Closet full of skeletons for getting started",
   "devDependencies": {
-    "@mikey-pro/style-guide": "^4.7.0",
+    "@mikey-pro/style-guide": "^4.8.0",
     "eslint": "^8.9.0",
     "prettier": "^2.5.1",
     "stylelint": "^14.5.1",
@@ -12,15 +12,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chiefmikey/templates.git"
+    "url": "git+https://github.com/chiefmikey/template-graveyard.git"
   },
-  "homepage": "https://github.com/chiefmikey/templates#readme",
+  "homepage": "https://github.com/chiefmikey/template-graveyard#readme",
   "author": "me",
   "bugs": {
-    "url": "https://github.com/chiefmikey/templates/issues"
+    "url": "https://github.com/chiefmikey/template-graveyard/issues"
   },
   "keywords": [
-    "templates"
+    "template-graveyard"
   ],
   "contributors": [
     "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)"
