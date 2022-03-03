@@ -21,7 +21,7 @@
             >koa-mongo</a
           >
         </td>
-        <td valign="top">Koa server routed to MongoDB</td>
+        <td valign="top">Route a Koa server to MongoDB</td>
       </tr>
       <tr>
         <td valign="top">
@@ -31,7 +31,7 @@
             >dom-chef</a
           >
         </td>
-        <td valign="top">Prepared dom-chef JSX meal</td>
+        <td valign="top">Create a dom-chef JSX app</td>
       </tr>
       <tr>
         <td valign="top">
@@ -41,7 +41,7 @@
             >docker-deploy</a
           >
         </td>
-        <td valign="top">Automated Docker deployment with AWS</td>
+        <td valign="top">Automate a Docker deployment to AWS</td>
       </tr>
       <tr>
         <td valign="top">
@@ -51,7 +51,7 @@
             >github-pages-redirect</a
           >
         </td>
-        <td valign="top">Mock implementation of Github Pages 404 redirect</td>
+        <td valign="top">Mock a Github Pages 404 redirect</td>
       </tr>
     </tbody>
   </table>
