@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Closet full of skeletons for getting started",
   "devDependencies": {
-    "@mikey-pro/style-guide": "^4.11.1",
+    "@mikey-pro/style-guide": "^4.11.2",
     "eslint": "^8.16.0",
     "prettier": "^2.6.2",
-    "stylelint": "^14.8.3",
+    "stylelint": "^14.8.4",
     "typescript": "^4.6.4"
   },
   "license": "MIT",
