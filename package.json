@@ -4,7 +4,7 @@
   "description": "Closet full of skeletons for getting started",
   "devDependencies": {
     "@mikey-pro/style-guide": "^4.146.0",
-    "eslint": "^8.47.0",
+    "eslint": "^8.48.0",
     "prettier": "^3.0.2",
     "stylelint": "^15.10.3",
     "typescript": "^5.2.2"
