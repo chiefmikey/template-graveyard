@@ -3,25 +3,21 @@
   "version": "1.0.0",
   "description": "Closet full of skeletons for getting started",
   "devDependencies": {
-    "@mikey-pro/style-guide": "^4.146.0",
-    "eslint": "^8.56.0",
-    "prettier": "^3.2.5",
-    "stylelint": "^16.2.1",
-    "typescript": "^5.3.3"
+    "mikey-pro": "^6.6.10"
   },
-  "license": "MIT",
+  "homepage": "https://github.com/chiefmikey/template-graveyard#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chiefmikey/template-graveyard.git"
   },
-  "homepage": "https://github.com/chiefmikey/template-graveyard#readme",
-  "author": "me",
   "bugs": {
     "url": "https://github.com/chiefmikey/template-graveyard/issues"
   },
+  "license": "MIT",
   "keywords": [
     "template-graveyard"
   ],
+  "author": "me",
   "contributors": [
     "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)"
   ],
