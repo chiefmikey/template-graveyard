@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Closet full of skeletons for getting started",
   "devDependencies": {
-    "mikey-pro": "^7.5.2"
+    "mikey-pro": "^7.5.3"
   },
   "homepage": "https://github.com/chiefmikey/template-graveyard#readme",
   "repository": {
