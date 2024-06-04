@@ -5,6 +5,9 @@
   "devDependencies": {
     "mikey-pro": "^7.5.3"
   },
+  "scripts": {
+    "ncu": "find . -name 'package.json' ! -path '*node_modules*' -exec sh -c 'cd $(dirname {}) && ncu -u && npm i --package-lock-only' \\;"
+  },
   "homepage": "https://github.com/chiefmikey/template-graveyard#readme",
   "repository": {
     "type": "git",
