@@ -16,7 +16,7 @@
     "koa": "^2.15.3",
     "koa-bodyparser": "^4.4.1",
     "koa-static": "^5.0.0",
-    "mongoose": "^8.8.3"
+    "mongoose": "^8.9.5"
   },
   "devDependencies": {
     "@babel/core": "^7.24.6",
