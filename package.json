@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Closet full of skeletons for getting started",
   "devDependencies": {
-    "mikey-pro": "^8.0.19"
+    "mikey-pro": "^8.1.1"
   },
   "scripts": {
     "ncu": "find . -name 'package.json' ! -path '*node_modules*' -exec sh -c 'cd $(dirname {}) && ncu -u && npm i --package-lock-only' \\;"
