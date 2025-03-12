@@ -12,7 +12,7 @@
   "dependencies": {
     "airbnb-browser-shims": "^3.3.0",
     "dom-chef": "^5.1.1",
-    "koa": "^2.15.3",
+    "koa": "^2.15.4",
     "koa-static": "^5.0.0",
     "the-new-css-reset": "^1.11.2"
   },
