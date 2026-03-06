@@ -1,6 +1,7 @@
 {
   "name": "template-graveyard",
   "version": "1.0.0",
+  "type": "module",
   "description": "Closet full of skeletons for getting started",
   "devDependencies": {
     "mikey-pro": "^10.1.0"
@@ -24,11 +25,8 @@
   "contributors": [
     "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)"
   ],
-  "prettier": "@mikey-pro/prettier-config",
-  "eslintConfig": {
-    "extends": "@mikey-pro/eslint-config"
-  },
+  "prettier": "mikey-pro/prettier",
   "stylelint": {
-    "extends": "@mikey-pro/stylelint-config"
+    "extends": "mikey-pro/stylelint"
   }
 }
