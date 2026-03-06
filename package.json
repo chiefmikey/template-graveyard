@@ -4,7 +4,7 @@
   "type": "module",
   "description": "Closet full of skeletons for getting started",
   "devDependencies": {
-    "mikey-pro": "^10.1.0"
+    "mikey-pro": "^10.2.0"
   },
   "scripts": {
     "ncu": "find . -name 'package.json' ! -path '*node_modules*' -exec sh -c 'cd $(dirname {}) && ncu -u && npm i --package-lock-only' \\;"
